@@ -1,0 +1,14 @@
+C:\Users\hitai\AppData\Local\Temporary Projects\Fingerprint2\bin\Debug\Fingerprint2.exe
+C:\Users\hitai\AppData\Local\Temporary Projects\Fingerprint2\bin\Debug\Fingerprint2.pdb
+C:\Users\hitai\AppData\Local\Temporary Projects\Fingerprint2\obj\x86\Debug\Fingerprint2.Form1.resources
+C:\Users\hitai\AppData\Local\Temporary Projects\Fingerprint2\obj\x86\Debug\Fingerprint2.Properties.Resources.resources
+C:\Users\hitai\AppData\Local\Temporary Projects\Fingerprint2\obj\x86\Debug\Fingerprint2.csproj.GenerateResource.Cache
+C:\Users\hitai\AppData\Local\Temporary Projects\Fingerprint2\obj\x86\Debug\Fingerprint2.exe
+C:\Users\hitai\AppData\Local\Temporary Projects\Fingerprint2\obj\x86\Debug\Fingerprint2.pdb
+C:\Users\hitai\documents\visual studio 2010\Projects\Fingerprint2\Fingerprint2\obj\x86\Debug\Fingerprint2.exe
+C:\Users\hitai\documents\visual studio 2010\Projects\Fingerprint2\Fingerprint2\obj\x86\Debug\Fingerprint2.pdb
+C:\Users\hitai\documents\visual studio 2010\Projects\Fingerprint2\Fingerprint2\bin\Debug\Fingerprint2.exe
+C:\Users\hitai\documents\visual studio 2010\Projects\Fingerprint2\Fingerprint2\bin\Debug\Fingerprint2.pdb
+C:\Users\hitai\documents\visual studio 2010\Projects\Fingerprint2\Fingerprint2\obj\x86\Debug\Fingerprint2.Form1.resources
+C:\Users\hitai\documents\visual studio 2010\Projects\Fingerprint2\Fingerprint2\obj\x86\Debug\Fingerprint2.Properties.Resources.resources
+C:\Users\hitai\documents\visual studio 2010\Projects\Fingerprint2\Fingerprint2\obj\x86\Debug\Fingerprint2.csproj.GenerateResource.Cache
