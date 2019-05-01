@@ -8,6 +8,9 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO.Ports;
 using System.Threading;
+using System.Net.Mail;
+using System.Text.RegularExpressions;
+
 namespace Fingerprint2
 {
     public partial class Form1 : Form
@@ -47,7 +50,27 @@ namespace Fingerprint2
                                  SerialDataReceivedEventArgs e)
         {
             // Show all the incoming data in the port's buffer in the output window
-            SetText("\n" + input_srl.ReadLine());
+            string text = input_srl.ReadLine();
+            SetText("\n" + text);
+            string studentID;
+            if (text.Contains("Found") == true)
+            {
+                studentID = Regex.Match(text, @"\d+").Value;
+                //Console.WriteLine("Word found!");
+                MailMessage mail = new MailMessage("bhattacharya.soham@outlook.com", "sohambhattacharya2000@gmail.com");
+                SmtpClient client = new SmtpClient();
+                client.Port = 587;
+                client.EnableSsl = true;
+                client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                client.Credentials = new System.Net.NetworkCredential("bhattacharya.soham@outlook.com", "AdGjL1357");
+                client.Host = "smtp.office365.com";
+                mail.Subject = "Attendance";
+                mail.Body = "ID no: " + studentID + "has reported in";
+                client.Send(mail);
+
+            }
+            
+
         }
         private void start_btn_Click(object sender, EventArgs e)
         {
